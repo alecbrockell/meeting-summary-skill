@@ -1,0 +1,7 @@
+interface:
+  display_name: "Meeting Summary"
+  short_description: "Summarize meetings and extract action items"
+  default_prompt: "Use $meeting-summary with a local transcript or verbatims file path."
+
+policy:
+  allow_implicit_invocation: true
